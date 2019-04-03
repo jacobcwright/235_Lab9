@@ -1,0 +1,4 @@
+Set: Abe Bob Cam Dan Elf Fay
+Set: dog dog cat cat cat dog
+Set: Fay Elf Dan Cam Bob Abe Bob Cam Dan Elf Fay
+Set: Abe
