@@ -1,4 +1,35 @@
-Set: Abe Bob Cam Dan Elf Fay
-Set: dog dog cat cat cat dog
-Set: Fay Elf Dan Cam Bob Abe Bob Cam Dan Elf Fay
-Set: Abe
+Pokemon: Charmander fire
+Pokemon: Bulbasaur grass
+Pokemon: Squirtle water
+Pokemon: Pikachu electric
+Pokemon: Machoke fighting
+Pokemon: Pidgeotto flying
+Pokemon: Dugtrio ground
+Pokemon: Geodude rock
+Pokemon: Articuno ice
+Pokemon: Snorlax normal
+Pokemon: Snorlax normal
+Pokemon: Snorlax normal
+Pokemon: Charmander fire
+Pokemon: Bulbasaur grass
+
+Move: flamethrower fire
+Move: flamethrower fire
+Move: flamethrower fire
+Move: brick_break fighting
+Move: razor_leaf grass
+Move: tackle normal
+Move: spark electric
+Move: quick_attack normal
+Move: water_gun water
+Move: ice_beam ice
+Move: karate_chop fighting
+Move: rock_slide rock
+Move: air_slash flying
+Move: earthquake ground
+Move: body_slam normal
+Move: earthquake ground
+Move: body_slam normal
+
+Pokemon
+Moves

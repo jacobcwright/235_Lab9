@@ -24,7 +24,7 @@ public:
 
 	/** Removes all items from the set. */
 	void clear() {
-		tree.clearTree();
+			tree.clearTree();
 	}
 
 	/** @return: the number of elements contained by the Set. */

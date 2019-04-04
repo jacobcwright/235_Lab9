@@ -33,5 +33,6 @@ public:
 
 	/** @return: string representation of Key-Value pairs in Map. */
 	virtual std::string toString() const = 0;
+
 };
 #endif // HASH_MAP_INTERFACE_H

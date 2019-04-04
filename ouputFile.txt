@@ -1,12 +1,59 @@
-Set: Abe Bob Cam Dan Elf Fay
-  [Abe Bob Cam Dan Elf Fay]
+Pokemon: Charmander fire
+Pokemon: Bulbasaur grass
+Pokemon: Squirtle water
+Pokemon: Pikachu electric
+Pokemon: Machoke fighting
+Pokemon: Pidgeotto flying
+Pokemon: Dugtrio ground
+Pokemon: Geodude rock
+Pokemon: Articuno ice
+Pokemon: Snorlax normal
+Pokemon: Snorlax normal
+Pokemon: Snorlax normal
+Pokemon: Charmander fire
+Pokemon: Bulbasaur grass
+Move: flamethrower fire
+Move: flamethrower fire
+Move: flamethrower fire
+Move: brick_break fighting
+Move: razor_leaf grass
+Move: tackle normal
+Move: spark electric
+Move: quick_attack normal
+Move: water_gun water
+Move: ice_beam ice
+Move: karate_chop fighting
+Move: rock_slide rock
+Move: air_slash flying
+Move: earthquake ground
+Move: body_slam normal
+Move: earthquake ground
+Move: body_slam normal
 
-Set: dog dog cat cat cat dog
-  [cat dog]
+Pokemon:10/31
+[0:Squirtle->water]
+[1:Pikachu->electric]
+[3:Snorlax->normal]
+[5:Geodude->rock]
+[11:Bulbasaur->grass]
+[18:Machoke->fighting]
+[20:Articuno->ice]
+[21:Dugtrio->ground]
+[24:Pidgeotto->flying]
+[28:Charmander->fire]
 
-Set: Fay Elf Dan Cam Bob Abe Bob Cam Dan Elf Fay
-  [Abe Bob Cam Dan Elf Fay]
-
-Set: Abe
-  [Abe]
+Moves:13/31
+[1:spark->electric]
+[2:karate_chop->fighting]
+[7:tackle->normal]
+[8:rock_slide->rock]
+[12:brick_break->fighting]
+[16:body_slam->normal]
+[18:ice_beam->ice]
+[19:air_slash->flying]
+[21:quick_attack->normal]
+[25:water_gun->water]
+[26:earthquake->ground]
+[28:flamethrower->fire]
+[30:razor_leaf->grass]
 

@@ -63,14 +63,14 @@ template<typename T>
 void BST<T>::inOrder(Node* node, std::stringstream& out) const {
 	if (node == nullptr) return;
 	else if (node->left_ == nullptr) {
-		out << node->data_ << " ";
+		out << node->data_ << ",";
 		inOrder(node->right_, out);
 		return;
 	}
 	else {
 		inOrder(node->left_, out);
 	}
-	out << node->data_ << " ";
+	out << node->data_ << ",";
 	if (node->right_ != nullptr) {
 		inOrder(node->right_, out);
 	}
@@ -170,6 +170,7 @@ bool BST<T>::remove(Node*& node, const T& data) {
 	else {
 		return false;
 	}
+	return false;
 }
 
 
