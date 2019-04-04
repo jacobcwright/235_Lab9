@@ -41,7 +41,9 @@ public:
 	/** @return: string representation of items in Set. */
 	std::string toString() const {
 		std::string perfect = tree.inOrderToString();
-		perfect.pop_back();
+		if (perfect.length() != 0) {
+			perfect.pop_back();
+		}
 		return perfect;
 	}
 

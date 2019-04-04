@@ -29,6 +29,7 @@ private:
 		}
 		return base;
 	}
+
 	size_t capacity;
 	size_t numPairs;
 public:
@@ -46,6 +47,7 @@ public:
 			delete hashTable[i];
 		}
 		delete[] hashTable;
+		
 	}
 
 	/** Read/write index access operator.
@@ -55,8 +57,8 @@ public:
 		size_t index = hashFunction(key);
 		if (hashTable[index] != nullptr) {
 			size_t k = 1;
-			while (hashTable[index] != nullptr) {
-				if (hashTable[index]->first == key) return hashTable[index]->second;
+			while (hashTable[index] != nullptr) { //get next empty
+				if (hashTable[index]->first == key) return hashTable[index]->second; //check if already in table
 				index = (index + k) % capacity;
 				k += 2;
 			}

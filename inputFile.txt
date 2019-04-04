@@ -1,3 +1,29 @@
+Pokemon: Bayleaf grass
+Pokemon: Typhlosion fire
+Pokemon: Totodile water
+Pokemon: Natu psychic
+Pokemon: Steelix steel
+Pokemon: Scizor bug
+Pokemon: Tyranitar rock
+Pokemon: Ho-oh flying
+Pokemon: Umbreon dark
+Pokemon: Hitmontop fighting
+Pokemon: Misdreavus ghost
+Pokemon: Crobat poison
+
+Move: triple_kick fighting
+Move: magical_leaf grass
+Move: inferno fire
+Move: night_shade ghost
+Move: psybeam psychic
+Move: iron_tail steel
+Move: dark_pulse dark
+Move: ariel_ace flying
+Move: stone_edge rock
+Move: hydro_pump water
+Move: fury_cutter bug
+Move: poison_fang poison
+
 Effective: grass water ground rock
 Effective: fire grass ice bug steel
 Effective: water fire ground rock
@@ -9,14 +35,8 @@ Effective: flying grass fighting bug
 Effective: dark psychic ghost
 Effective: fighting rock dark steel
 Effective: ghost psychic ghost
-Effective: poison grass grass grass grass
-Effective: ghost psychic ghost
-Effective: poison grass
-Effective: ghost psychic ghost
 Effective: poison grass
 
-Ineffective: grass flying poison bug steel fire grass
-Ineffective: grass flying poison bug steel fire grass
 Ineffective: grass flying poison bug steel fire grass
 Ineffective: fire rock fire water
 Ineffective: water water grass
@@ -27,8 +47,18 @@ Ineffective: rock fighting steel
 Ineffective: flying rock steel
 Ineffective: dark fighting dark
 Ineffective: fighting flying poison bug psychic
-Ineffective: ghost dark dark dark dark dark
+Ineffective: ghost dark
 Ineffective: poison poison rock ghost steel
 
+Pokemon
+Moves
 Effectivities
 Ineffectivities
+
+Battle: Natu psybeam Tyranitar iron_tail
+Battle: Scizor fury_cutter Typhlosion inferno
+Battle: Bayleaf magical_leaf Totodile hydro_pump
+Battle: Umbreon dark_pulse Crobat ariel_ace
+Battle: Misdreavus psybeam Hitmontop triple_kick
+Battle: Ho-oh inferno Steelix stone_edge
+Battle: Misdreavus night_shade Scizor poison_fang

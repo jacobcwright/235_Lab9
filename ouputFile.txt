@@ -1,3 +1,27 @@
+Pokemon: Bayleaf grass
+Pokemon: Typhlosion fire
+Pokemon: Totodile water
+Pokemon: Natu psychic
+Pokemon: Steelix steel
+Pokemon: Scizor bug
+Pokemon: Tyranitar rock
+Pokemon: Ho-oh flying
+Pokemon: Umbreon dark
+Pokemon: Hitmontop fighting
+Pokemon: Misdreavus ghost
+Pokemon: Crobat poison
+Move: triple_kick fighting
+Move: magical_leaf grass
+Move: inferno fire
+Move: night_shade ghost
+Move: psybeam psychic
+Move: iron_tail steel
+Move: dark_pulse dark
+Move: ariel_ace flying
+Move: stone_edge rock
+Move: hydro_pump water
+Move: fury_cutter bug
+Move: poison_fang poison
 Effective: grass water ground rock
 Effective: fire grass ice bug steel
 Effective: water fire ground rock
@@ -9,13 +33,7 @@ Effective: flying grass fighting bug
 Effective: dark psychic ghost
 Effective: fighting rock dark steel
 Effective: ghost psychic ghost
-Effective: poison grass grass grass grass
-Effective: ghost psychic ghost
 Effective: poison grass
-Effective: ghost psychic ghost
-Effective: poison grass
-Ineffective: grass flying poison bug steel fire grass
-Ineffective: grass flying poison bug steel fire grass
 Ineffective: grass flying poison bug steel fire grass
 Ineffective: fire rock fire water
 Ineffective: water water grass
@@ -26,8 +44,37 @@ Ineffective: rock fighting steel
 Ineffective: flying rock steel
 Ineffective: dark fighting dark
 Ineffective: fighting flying poison bug psychic
-Ineffective: ghost dark dark dark dark dark
+Ineffective: ghost dark
 Ineffective: poison poison rock ghost steel
+
+Pokemon:12/31
+  [0:Ho-oh->flying]
+  [3:Natu->psychic]
+  [6:Hitmontop->fighting]
+  [8:Umbreon->dark]
+  [9:Typhlosion->fire]
+  [10:Crobat->poison]
+  [11:Tyranitar->rock]
+  [12:Steelix->steel]
+  [18:Scizor->bug]
+  [20:Bayleaf->grass]
+  [23:Misdreavus->ghost]
+  [30:Totodile->water]
+
+Moves:12/31
+  [0:psybeam->psychic]
+  [1:hydro_pump->water]
+  [4:night_shade->ghost]
+  [7:stone_edge->rock]
+  [8:magical_leaf->grass]
+  [9:inferno->fire]
+  [17:fury_cutter->bug]
+  [22:poison_fang->poison]
+  [23:triple_kick->fighting]
+  [26:dark_pulse->dark]
+  [27:iron_tail->steel]
+  [29:ariel_ace->flying]
+
 
 Effectivities:12/31
   [3:steel->rock]
@@ -57,4 +104,102 @@ Ineffectivities:12/31
   [23:dark->dark,fighting]
   [24:fighting->bug,flying,poison,psychic]
   [25:ghost->dark]
+
+Battle: Natu psybeam Tyranitar iron_tail
+  Natu (psybeam) vs Tyranitar (iron_tail)
+  Natu is a psychic type Pokemon.
+  Tyranitar is a rock type Pokemon.
+  psybeam is a psychic type move.
+  iron_tail is a steel type move.
+  psybeam is super effective against [fighting,poison] type Pokemon.
+  psybeam is  ineffective against [dark,psychic,steel] type Pokemon.
+  Natu's psybeam is effective against Tyranitar
+  iron_tail is super effective against [rock] type Pokemon.
+  iron_tail is  ineffective against [fire,steel,water] type Pokemon.
+  Tyranitar's iron_tail is effective against Natu
+  The battle between Natu and Tyranitar is a tie.
+
+Battle: Scizor fury_cutter Typhlosion inferno
+  Scizor (fury_cutter) vs Typhlosion (inferno)
+  Scizor is a bug type Pokemon.
+  Typhlosion is a fire type Pokemon.
+  fury_cutter is a bug type move.
+  inferno is a fire type move.
+  fury_cutter is super effective against [dark,grass,psychic] type Pokemon.
+  fury_cutter is  ineffective against [fighting,fire,flying,ghost,poison,steel] type Pokemon.
+  Scizor's fury_cutter is ineffective against Typhlosion
+  inferno is super effective against [bug,grass,ice,steel] type Pokemon.
+  inferno is  ineffective against [fire,rock,water] type Pokemon.
+  Typhlosion's inferno is super effective against Scizor
+  In the battle between Scizor and Typhlosion, Typhlosion wins!
+
+Battle: Bayleaf magical_leaf Totodile hydro_pump
+  Bayleaf (magical_leaf) vs Totodile (hydro_pump)
+  Bayleaf is a grass type Pokemon.
+  Totodile is a water type Pokemon.
+  magical_leaf is a grass type move.
+  hydro_pump is a water type move.
+  magical_leaf is super effective against [ground,rock,water] type Pokemon.
+  magical_leaf is  ineffective against [bug,fire,flying,grass,poison,steel] type Pokemon.
+  Bayleaf's magical_leaf is super effective against Totodile
+  hydro_pump is super effective against [fire,ground,rock] type Pokemon.
+  hydro_pump is  ineffective against [grass,water] type Pokemon.
+  Totodile's hydro_pump is ineffective against Bayleaf
+  In the battle between Bayleaf and Totodile, Bayleaf wins!
+
+Battle: Umbreon dark_pulse Crobat ariel_ace
+  Umbreon (dark_pulse) vs Crobat (ariel_ace)
+  Umbreon is a dark type Pokemon.
+  Crobat is a poison type Pokemon.
+  dark_pulse is a dark type move.
+  ariel_ace is a flying type move.
+  dark_pulse is super effective against [ghost,psychic] type Pokemon.
+  dark_pulse is  ineffective against [dark,fighting] type Pokemon.
+  Umbreon's dark_pulse is effective against Crobat
+  ariel_ace is super effective against [bug,fighting,grass] type Pokemon.
+  ariel_ace is  ineffective against [rock,steel] type Pokemon.
+  Crobat's ariel_ace is effective against Umbreon
+  The battle between Umbreon and Crobat is a tie.
+
+Battle: Misdreavus psybeam Hitmontop triple_kick
+  Misdreavus (psybeam) vs Hitmontop (triple_kick)
+  Misdreavus is a ghost type Pokemon.
+  Hitmontop is a fighting type Pokemon.
+  psybeam is a psychic type move.
+  triple_kick is a fighting type move.
+  psybeam is super effective against [fighting,poison] type Pokemon.
+  psybeam is  ineffective against [dark,psychic,steel] type Pokemon.
+  Misdreavus's psybeam is super effective against Hitmontop
+  triple_kick is super effective against [dark,rock,steel] type Pokemon.
+  triple_kick is  ineffective against [bug,flying,poison,psychic] type Pokemon.
+  Hitmontop's triple_kick is effective against Misdreavus
+  In the battle between Misdreavus and Hitmontop, Misdreavus wins!
+
+Battle: Ho-oh inferno Steelix stone_edge
+  Ho-oh (inferno) vs Steelix (stone_edge)
+  Ho-oh is a flying type Pokemon.
+  Steelix is a steel type Pokemon.
+  inferno is a fire type move.
+  stone_edge is a rock type move.
+  inferno is super effective against [bug,grass,ice,steel] type Pokemon.
+  inferno is  ineffective against [fire,rock,water] type Pokemon.
+  Ho-oh's inferno is super effective against Steelix
+  stone_edge is super effective against [bug,fire,flying] type Pokemon.
+  stone_edge is  ineffective against [fighting,steel] type Pokemon.
+  Steelix's stone_edge is super effective against Ho-oh
+  The battle between Ho-oh and Steelix is a tie.
+
+Battle: Misdreavus night_shade Scizor poison_fang
+  Misdreavus (night_shade) vs Scizor (poison_fang)
+  Misdreavus is a ghost type Pokemon.
+  Scizor is a bug type Pokemon.
+  night_shade is a ghost type move.
+  poison_fang is a poison type move.
+  night_shade is super effective against [ghost,psychic] type Pokemon.
+  night_shade is  ineffective against [dark] type Pokemon.
+  Misdreavus's night_shade is effective against Scizor
+  poison_fang is super effective against [grass] type Pokemon.
+  poison_fang is  ineffective against [ghost,poison,rock,steel] type Pokemon.
+  Scizor's poison_fang is ineffective against Misdreavus
+  In the battle between Misdreavus and Scizor, Misdreavus wins!
 
