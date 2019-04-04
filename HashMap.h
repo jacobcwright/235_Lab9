@@ -3,6 +3,7 @@
 #include <utility>
 #include <sstream>
 #include "HashMapInterface.h"
+#include "Set.h"
 
 template <typename K, typename V>
 class HashMap : public HashMapInterface<K, V> {
@@ -47,13 +48,12 @@ public:
 			delete hashTable[i];
 		}
 		delete[] hashTable;
-		
 	}
 
 	/** Read/write index access operator.
 	If the key is not found, an entry is made for it.
 	@return: Read and write access to the value mapped to the provided key. */
-	V& operator[](const K& key) {
+	V& operator[](const K& key) { //not counting end bracing and function name it is 10 lines
 		size_t index = hashFunction(key);
 		if (hashTable[index] != nullptr) {
 			size_t k = 1;

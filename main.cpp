@@ -61,7 +61,7 @@ int main(int argc, char** argv) {
 			stringstream ss(data);
 			ss >> arg1; //baseType
 			out << command << data << endl;
-			effectiveTypes[arg1] = Set<string>();
+			//effectiveTypes[arg1] = Set<string>();
 			while (ss >> arg2) { //arg2 = effectiveTypes
 				effectiveTypes[arg1].insert(arg2);
 			}
