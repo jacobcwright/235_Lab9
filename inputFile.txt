@@ -1,35 +1,34 @@
-Pokemon: Charmander fire
-Pokemon: Bulbasaur grass
-Pokemon: Squirtle water
-Pokemon: Pikachu electric
-Pokemon: Machoke fighting
-Pokemon: Pidgeotto flying
-Pokemon: Dugtrio ground
-Pokemon: Geodude rock
-Pokemon: Articuno ice
-Pokemon: Snorlax normal
-Pokemon: Snorlax normal
-Pokemon: Snorlax normal
-Pokemon: Charmander fire
-Pokemon: Bulbasaur grass
+Effective: grass water ground rock
+Effective: fire grass ice bug steel
+Effective: water fire ground rock
+Effective: psychic fighting poison
+Effective: steel rock
+Effective: bug grass psychic dark
+Effective: rock fire flying bug
+Effective: flying grass fighting bug
+Effective: dark psychic ghost
+Effective: fighting rock dark steel
+Effective: ghost psychic ghost
+Effective: poison grass grass grass grass
+Effective: ghost psychic ghost
+Effective: poison grass
+Effective: ghost psychic ghost
+Effective: poison grass
 
-Move: flamethrower fire
-Move: flamethrower fire
-Move: flamethrower fire
-Move: brick_break fighting
-Move: razor_leaf grass
-Move: tackle normal
-Move: spark electric
-Move: quick_attack normal
-Move: water_gun water
-Move: ice_beam ice
-Move: karate_chop fighting
-Move: rock_slide rock
-Move: air_slash flying
-Move: earthquake ground
-Move: body_slam normal
-Move: earthquake ground
-Move: body_slam normal
+Ineffective: grass flying poison bug steel fire grass
+Ineffective: grass flying poison bug steel fire grass
+Ineffective: grass flying poison bug steel fire grass
+Ineffective: fire rock fire water
+Ineffective: water water grass
+Ineffective: psychic steel psychic dark
+Ineffective: steel steel fire water
+Ineffective: bug fighting flying poison ghost steel fire
+Ineffective: rock fighting steel
+Ineffective: flying rock steel
+Ineffective: dark fighting dark
+Ineffective: fighting flying poison bug psychic
+Ineffective: ghost dark dark dark dark dark
+Ineffective: poison poison rock ghost steel
 
-Pokemon
-Moves
+Effectivities
+Ineffectivities

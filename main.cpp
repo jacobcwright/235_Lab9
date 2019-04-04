@@ -13,6 +13,9 @@ int main(int argc, char** argv) {
 	string command, data, arg1, arg2;
 	HashMap <string, string> Pokemon;
 	HashMap <string, string> Moves;
+	HashMap<string, Set<string>> effectiveTypes;
+	HashMap<string, Set<string>> ineffectiveTypes;
+
 
 	while(in >> command){
 		if (command == "") continue;
@@ -25,7 +28,6 @@ int main(int argc, char** argv) {
 			}
 			out << command << data << endl;
 			string result = set.toString();
-			result.pop_back();
 			out << "  [" << result << "]" << endl << endl;
 		}
 		else if (command == "Pokemon:") {
@@ -54,6 +56,42 @@ int main(int argc, char** argv) {
 			out << "Moves:" << Moves.size() << "/" << Moves.max_size() << endl;
 			out << Moves.toString() << endl;
 		}
+		else if (command == "Effective:") {
+			getline(in, data);
+			stringstream ss(data);
+			ss >> arg1; //baseType
+			out << command << data << endl;
+			while (ss >> arg2) { //arg2 = effectiveTypes
+				effectiveTypes[arg1].insert(arg2);
+			}
+			
+		}
+		else if (command == "Ineffective:") {
+			getline(in, data);
+			stringstream ss(data);
+			ss >> arg1; //baseType
+			out << command << data << endl;
+			while (ss >> arg2) { //arg2 = ineffectiveTypes
+				ineffectiveTypes[arg1].insert(arg2);
+			}
+		}
+		else if (command == "Effectivities") {
+			out << endl << "Effectivities:" << effectiveTypes.size() << "/" << effectiveTypes.max_size() << endl;
+			string result = effectiveTypes.toString();
+			out << result << endl;
+		}
+		else if (command == "Ineffectivities") {
+			out << endl << "Ineffectivities:" << ineffectiveTypes.size() << "/" << ineffectiveTypes.max_size() << endl;
+			string result = ineffectiveTypes.toString();
+			out << result << endl;
+		}
+		else if (command == "") {
+
+		}
+		else if (command == "") {
+
+		}
+
 	}
 
 	return 0;

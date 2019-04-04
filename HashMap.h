@@ -14,15 +14,18 @@ private:
 		size_t length = key.size();
 		unsigned long long value = 0;
 		for (size_t i = 0; i < length; i++) {
-			value += key.at(i) * power(HASH_CONSTANT, (length - i));
+			value += key.at(i) * power(HASH_CONSTANT, (length - i - 1));
 		}
 		return (value % capacity);
 	}
 
 	/* Function to raise a base to an exponent */
 	unsigned long long power(unsigned long long base, int exponent) {
-		if (exponent > 1) {
+		if (exponent > 0) {
 			base = base * power(base, exponent - 1);
+		}
+		else {
+			return 1;
 		}
 		return base;
 	}
@@ -39,6 +42,9 @@ public:
 	}
 
 	~HashMap() {
+		for (size_t i = 0; i < capacity; i++) {
+			delete hashTable[i];
+		}
 		delete[] hashTable;
 	}
 
@@ -48,9 +54,9 @@ public:
 	V& operator[](const K& key) {
 		size_t index = hashFunction(key);
 		if (hashTable[index] != nullptr) {
-			if (hashTable[index]->first == key) return hashTable[index]->second;
 			size_t k = 1;
 			while (hashTable[index] != nullptr) {
+				if (hashTable[index]->first == key) return hashTable[index]->second;
 				index = (index + k) % capacity;
 				k += 2;
 			}
@@ -94,10 +100,11 @@ public:
 	/** @return: string representation of Key-Value pairs in Map. */
 	std::string toString() const {
 		std::ostringstream out;
+		std::string perfect;
 		for (size_t i = 0; i < capacity; i++) {
 			if (hashTable[i] == nullptr) continue;
 			else {
-				out << "[" << i << ":" << hashTable[i]->first << "->" << hashTable[i]->second << "]" << std::endl;
+				out << "  [" << i << ":" << hashTable[i]->first << "->" << hashTable[i]->second << "]" << std::endl;
 			}
 		}
 		return out.str();

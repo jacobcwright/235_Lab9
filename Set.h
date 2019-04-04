@@ -1,8 +1,9 @@
 #ifndef SET_H
 #define SET_H
-
+#include <iostream>
 #include "SetInterface.h"
 #include "BST.h"
+
 
 template<typename T>
 class Set : public SetInterface<T> {
@@ -39,7 +40,15 @@ public:
 
 	/** @return: string representation of items in Set. */
 	std::string toString() const {
-		return tree.inOrderToString();
+		std::string perfect = tree.inOrderToString();
+		perfect.pop_back();
+		return perfect;
+	}
+
+	/** friend insertion operator */
+	friend std::ostream& operator<< (std::ostream& os, const Set& set) {
+		os << set.toString();
+		return os;
 	}
 };
 
